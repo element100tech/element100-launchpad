@@ -1,12 +1,12 @@
 const InquiriesSection = () => {
   return (
-    <section id="inquiries" className="section-padding gradient-subtle">
+    <section id="inquiries" className="section-padding">
       <div className="section-container">
         <div className="text-center mb-12">
           <h2 className="heading-2 mb-4">Get In Touch</h2>
           <p className="text-body max-w-2xl mx-auto">
-            Have a project in mind or want to learn more about how we can help? 
-            Fill out the form below and we'll get back to you shortly.
+            Interested in our silicon anode technology? Whether you're exploring 
+            partnership opportunities or have technical questions, we'd love to hear from you.
           </p>
         </div>
 
