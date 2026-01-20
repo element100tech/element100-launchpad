@@ -1,47 +1,47 @@
-import { Code, Database, Cloud, Lightbulb, Shield, Zap } from "lucide-react";
+import { Zap, Battery, Layers, FlaskConical, Factory, Handshake } from "lucide-react";
 
 const services = [
   {
-    icon: Code,
-    title: "Custom Software Development",
-    description: "Tailored applications built to meet your specific business requirements using modern technologies.",
-  },
-  {
-    icon: Cloud,
-    title: "Cloud Solutions",
-    description: "Scalable cloud infrastructure and migration services to optimize your operations.",
-  },
-  {
-    icon: Database,
-    title: "Data & Analytics",
-    description: "Transform your data into actionable insights with our analytics and data engineering services.",
-  },
-  {
-    icon: Lightbulb,
-    title: "Technology Consulting",
-    description: "Strategic guidance to help you make informed technology decisions for your business.",
-  },
-  {
-    icon: Shield,
-    title: "Security Solutions",
-    description: "Protect your digital assets with comprehensive security assessments and implementations.",
+    icon: Battery,
+    title: "High-Capacity Anodes",
+    description: "100% silicon anodes delivering up to 3,200 mAh/g specific capacity, far exceeding traditional graphite materials.",
   },
   {
     icon: Zap,
-    title: "Process Automation",
-    description: "Streamline workflows and increase efficiency through intelligent automation.",
+    title: "Superior Efficiency",
+    description: "First-cycle coulombic efficiency of 94%, minimizing energy loss and maximizing battery performance.",
+  },
+  {
+    icon: Layers,
+    title: "Ultra-Thin Design",
+    description: "Achieving 76 mAh/cm² capacity with only 24 µm thickness for compact, high-energy applications.",
+  },
+  {
+    icon: FlaskConical,
+    title: "R&D Collaboration",
+    description: "Partner with our research team to develop customized silicon anode solutions for your specific applications.",
+  },
+  {
+    icon: Factory,
+    title: "Scalable Production",
+    description: "Manufacturing processes designed for scalability, from prototype quantities to commercial volumes.",
+  },
+  {
+    icon: Handshake,
+    title: "Technology Licensing",
+    description: "Flexible licensing arrangements for our proprietary silicon anode technology and manufacturing processes.",
   },
 ];
 
 const ServicesSection = () => {
   return (
-    <section id="services" className="section-padding">
+    <section id="services" className="section-padding gradient-subtle">
       <div className="section-container">
         <div className="text-center mb-12">
-          <h2 className="heading-2 mb-4">Our Services</h2>
+          <h2 className="heading-2 mb-4">Our Capabilities</h2>
           <p className="text-body max-w-2xl mx-auto">
-            We offer comprehensive technology services designed to help your business 
-            grow and succeed in today's competitive landscape.
+            We offer comprehensive silicon anode solutions, from materials research 
+            to production-ready technology for next-generation batteries.
           </p>
         </div>
 
